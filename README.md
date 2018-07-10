@@ -1,4 +1,4 @@
-### Samsung-Data-Project
+## Samsung-Data-Project
 
 The aim of the project is to collect, work and clean the data from 30 volunteers who performed 6 different activities.
 Every individual wore a Samsung Galaxy on the waist while Walking, Walking_upstairs, Walking_downstairs, Sitting, Standing and Laying.
@@ -10,7 +10,7 @@ Measurements on the mean and standard deviations variables were selected from ea
 Train and test labels were named according to the activity labels document. 
 
 
-## Files included
+### Files included
 
 - X_train.txt: Training set.
 - y_train.txt: Training labels.
