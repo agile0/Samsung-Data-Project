@@ -1,12 +1,16 @@
-# Samsung-Data-Project
+### Samsung-Data-Project
 
-The aim of the project is to collect, work and clean the data from 30 individuals who performed 6 different activities.
+The aim of the project is to collect, work and clean the data from 30 volunteers who performed 6 different activities.
 Every individual wore a Samsung Galaxy on the waist while Walking, Walking_upstairs, Walking_downstairs, Sitting, Standing and Laying.
 
-The data was captured from the smartphone's accelerometer and gyroscope. It was organized in two differents datasets (train and test sets). 70% of individuals contribute to complete the train set and the rest 30% fullfill the test set. 
+The raw data was captured from the smartphone's accelerometer and gyroscope. It was organized in two differents datasets (train and test sets) with separate labels and subjects. 70% of individuals contribute to complete the train set and the rest 30% fullfill the test set.
+
+Both data sets were merged in a single dataframe including its corresponding labels and subjects (individuals performing the activity). 
+Measurements on the mean and standard deviations variables were selected from each measurement.
+Train and test labels were named according to the activity labels document. 
 
 
-# Files included
+## Files included
 
 - X_train.txt: Training set.
 - y_train.txt: Training labels.
