@@ -1,4 +1,4 @@
-## Samsung-Data-Project
+# Samsung-Data-Project
 
 The aim of the project is to collect, work and clean the data from 30 volunteers who performed 6 different activities.
 Every individual wore a Samsung Galaxy on the waist while Walking, Walking_upstairs, Walking_downstairs, Sitting, Standing and Laying.
