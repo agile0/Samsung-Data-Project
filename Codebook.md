@@ -28,7 +28,7 @@ hdactivity
 
 A data frame with 168 observations on 68 variables 
 
-Volunteer 
+Volunteer
 Activity
 tBodyAccmeanX           
 tBodyAccmeanY
