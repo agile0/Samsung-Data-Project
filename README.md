@@ -5,6 +5,12 @@ Every individual wore a Samsung Galaxy on the waist while Walking, Walking_upsta
 
 The raw data was captured from the smartphone's accelerometer and gyroscope. It was organized in two differents datasets (train and test sets) with separate labels and subjects. 70% of individuals contribute to complete the train set and the rest 30% fullfill the test set.
 
+Both data sets were merged in a single dataframe including its corresponding labels and subjects (individuals performing the activity). 
+Measurements on the mean and standard deviations variables were selected from each measurement.
+Train and test labels were named according to the activity labels document. 
+
+The outcome depicts the mean on 68 selected variables organised by individual and activity. 
+
 ## Raw data files
   
 #### Train data
@@ -22,17 +28,12 @@ The raw data was captured from the smartphone's accelerometer and gyroscope. It 
 - features.txt: Variable names
 
 ## Script files
-Using the script presented below and the list of actions described in the codebook we obtain the outcome text file
 
-- run_analysis.R 
+- run_analysis.R -> Collect, work and clean up the raw data. It creates the outcome text file.   
+- hdactivity_codebook.R -> generate the codebook with a complete summary of the data extracted from run_analysis. 
 
-Both data sets were merged in a single dataframe including its corresponding labels and subjects (individuals performing the activity). 
-Measurements on the mean and standard deviations variables were selected from each measurement.
-Train and test labels were named according to the activity labels document. 
-
-  ## Outcome text file
+ ## Outcome text file
 - hdactivity.txt: Output data set composed by train and test sets. Measurements on the mean and standard deviation variables grouped by individual and activity.
 
 
-Finally to create the codebook and describe every variable we used the package 'memsc'. 
-Execute the hdactivity_codebook.R script will generate a textfile with a complete summary of our data.
+
