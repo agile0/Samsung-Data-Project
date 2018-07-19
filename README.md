@@ -5,14 +5,14 @@ Every individual wore a Samsung Galaxy on the waist while Walking, Walking_upsta
 
 The raw data was captured from the smartphone's accelerometer and gyroscope. It was organized in two differents datasets (train and test sets) with separate labels and subjects. 70% of individuals contribute to complete the train set and the rest 30% fullfill the test set.
 
-  ## Raw text files
+## Raw data files
   
-#### Train information
+#### Train data
 - X_train.txt: Training set.
 - y_train.txt: Training labels.
 - subject_train.txt: Individual who performed the activity.
 
-#### Test information
+#### Test data
 - X_test.txt: Test set.
 - y_test.txt: Test labels.
 - subject_test.txt: Individual who performed the activity.
@@ -21,9 +21,9 @@ The raw data was captured from the smartphone's accelerometer and gyroscope. It 
 - activity_labels.txt: Number associated to each activity.
 - features.txt: Variable names
 
+## Script files
 Using the script presented below and the list of actions described in the codebook we obtain the outcome text file
 
-  ## Script files
 - run_analysis.R 
 
 Both data sets were merged in a single dataframe including its corresponding labels and subjects (individuals performing the activity). 
