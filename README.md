@@ -17,7 +17,7 @@ The raw data was captured from the smartphone's accelerometer and gyroscope. It 
 - y_test.txt: Test labels.
 - subject_test.txt: Individual who performed the activity.
 
-#### Common information to train and test data sets
+#### Common information to both data sets
 - activity_labels.txt: Number associated to each activity.
 - features.txt: Variable names
 
