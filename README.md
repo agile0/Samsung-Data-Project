@@ -33,7 +33,7 @@ The outcome depicts the mean on 68 selected variables organised by individual an
 - hdactivity_codebook.R -> generate the codebook with a complete summary of the data extracted from run_analysis. 
 
  ## Outcome text files
-- hdactivity.txt: Output data set composed by train and test sets. Measurements on the mean and standard deviation variables grouped by individual and activity.
+- humanactivity.txt: Output data set composed by train and test sets. Measurements on the mean and standard deviation variables grouped by individual and activity.
 
 - humandata-cdbk.txt: Codebook with a complete summary of the hdactivity data 
 
