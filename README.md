@@ -10,6 +10,8 @@ Measurements on the mean and standard deviations variables were selected from ea
 Train and test labels were named according to the activity labels document. 
 
 
+
+
 ### Files included
 
 - X_train.txt: Training set.
