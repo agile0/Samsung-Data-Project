@@ -4,9 +4,6 @@
 The experiment represents data gathered from 30 individuals who complete 6 different activities. 
 Each volunteer wore a smartphone to measure sensor signals from the accelerometer and gyroscope.
 
-### Usage
-hdactivity
-
 ### List of actions
 ##### 1.Load packages
 ##### 2.Download the file from the source
@@ -23,79 +20,6 @@ hdactivity
 ##### 13.Transform the outcome dataframe to data.set 
 ##### 14.Description of variables and summarize information 
 ##### 15.Generate a codebook text file  
-
-### Format 
-
-A data frame with 168 observations on 68 variables 
-
-Volunteer
-Activity
-tBodyAccmeanX           
-tBodyAccmeanY
-tBodyAccmeanZ
-tBodyAccstdX
-tBodyAccstdY
-tBodyAccstdZ
-tGravityAccmeanX
-tGravityAccmeanY   
-tGravityAccmeanZ
-tGravityAccstdX
-tGravityAccstdY
-tGravityAccstdZ
-tBodyAccJerkmeanX       
-tBodyAccJerkmeanY
-tBodyAccJerkmeanZ
-tBodyAccJerkstdX        
-tBodyAccJerkstdY 
-tBodyAccJerkstdZ
-tBodyGyromeanX          
-tBodyGyromeanY 
-tBodyGyromeanZ
-tBodyGyrostdX           
-tBodyGyrostdY 
-tBodyGyrostdZ  
-tBodyGyroJerkmeanX 
-tBodyGyroJerkmeanY
-tBodyGyroJerkmeanZ
-tBodyGyroJerkstdX
-tBodyGyroJerkstdY
-tBodyGyroJerkstdZ 
-tBodyAccMagmean         
-tBodyAccMagstd
-tGravityAccMagmean
-tGravityAccMagstd
-tBodyAccJerkMagmean
-tBodyAccJerkMagstd
-tBodyGyroMagmean        
-tBodyGyroMagstd
-tBodyGyroJerkMagmean
-tBodyGyroJerkMagstd     
-fBodyAccmeanX 
-fBodyAccmeanY
-fBodyAccmeanZ           
-fBodyAccstdX
-fBodyAccstdY
-fBodyAccstdZ            
-fBodyAccJerkmeanX
-fBodyAccJerkmeanY
-fBodyAccJerkmeanZ       
-fBodyAccJerkstdX
-fBodyAccJerkstdY
-fBodyAccJerkstdZ        
-fBodyGyromeanX
-fBodyGyromeanY
-fBodyGyromeanZ          
-fBodyGyrostdX
-fBodyGyrostdY
-fBodyGyrostdZ           
-fBodyAccMagmean
-fBodyAccMagstd
-fBodyBodyAccJerkMagmean 
-fBodyBodyAccJerkMagstd
-fBodyBodyGyroMagmean
-fBodyBodyGyroMagstd     
-fBodyBodyGyroJerkMagmean
-fBodyBodyGyroJerkMagstd 
 
 ### Source
 
