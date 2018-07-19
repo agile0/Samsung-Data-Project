@@ -66,3 +66,4 @@ hdactivity <- group_by_at(experiment_df, vars(Volunteer, Activity))
 hdactivity <- summarise_all(hdactivity, funs(mean))
 
 #Export to a text file using read.table
+write.table(hdactivity, file = "hdactivity.txt", row.names = FALSE)
