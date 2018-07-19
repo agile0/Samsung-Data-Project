@@ -1,7 +1,7 @@
 #Load packages
 
 library("dplyr")
-library("tdyr")
+library("tidyr")
 library("memsc")
 
 # Download the file from the source
